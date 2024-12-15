@@ -1,19 +1,11 @@
 
 
-.cards{
-    min-width: 6rem;
-    width: auto;
-    height: 6rem;
-    background-color: red;
-    border-radius: 1rem;
-    color: whitesmoke;
-    font-size: 4rem;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-
-}
-
-::after .cards{
-    background-color: green;
+body {
+    background-image: url("./img/bg.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    margin: 0;                     
+    height: 100vh;
+    overflow: hidden;                
 }

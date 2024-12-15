@@ -8,7 +8,7 @@ const gifts = ["Chocolate bar", "Mini candle", "Christmas ornament", "Hot cocoa 
 document.addEventListener("DOMContentLoaded", function () {
 
     for (let i = 0; i < 24; i++) { 
-        if (i + 1 <= day && month == 12) {
+        if (i +1 <= day && month == 12) {
             document.getElementById("list").innerHTML += `<button type="button" class="btn btn-lg btn-success col-2 m-1"  data-bs-toggle="popover" data-bs-title="Your gift: " data-bs-content="${gifts[i]}">${i + 1}</button>`;
         } else {          
             document.getElementById("list").innerHTML += `<button type="button" class="btn btn-lg btn-danger col-2 m-1" disabled>${i + 1}</button>`;
